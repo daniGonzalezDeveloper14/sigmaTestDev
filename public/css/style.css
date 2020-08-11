@@ -1,0 +1,98 @@
+
+/*Estilos Prueba de desarrollo Sigma Test*/
+
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+/* Estilos Generales */
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	font-family: "Roboto", sans-serif;
+	margin: 0 auto;
+}
+
+html {
+	font-family: 'Roboto', sans-serif;
+	-webkit-text-size-adjust: 100%;
+}
+
+body {
+	margin: 0 auto !important;
+	font-family: "Roboto", sans-serif;
+	font-size: 0.9rem;
+	font-weight: 400;
+	line-height: 1.6;
+	color: #000;
+}
+
+.header-style{
+	margin: 20px 0px;
+	text-align: center;
+	margin: 30px 0;
+	padding: 20px 0 10px 0;
+}
+
+.title-style{
+	font-family: "Roboto", sans-serif;
+	color: #000;
+	font-weight: 700;
+	margin: 30px 0 0 0;
+}
+
+.article-style{
+	text-align: center;
+	padding: 0 10px;
+}
+
+.container-style{
+	margin-top: 70px;
+	margin-bottom: 40px;
+}
+
+.img-section{
+	width: 100%;
+}
+
+.form-style{
+	border: 1px solid #D9D9D9;
+    padding: 25px;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 0px 9px 1px rgba(151,151,151,0.5);
+	-moz-box-shadow: 0px 0px 9px 1px rgba(151,151,151,0.5);
+	box-shadow: 0px 0px 9px 1px rgba(151,151,151,0.5);
+}
+
+.label-style{
+	font-family: "Roboto", sans-serif;
+	color: #000;
+	font-weight: 700;
+}
+
+.btn-center{
+	text-align: center;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.btn-style{
+	text-transform: uppercase;
+    font-weight: bold !important;
+    letter-spacing: 1px;
+    padding: 15px !important;
+    width: 160px !important;
+    border-radius: 40px !important;
+}
+
+.error_msg{
+	background: red;
+    color: #fff;
+    padding: 5px;
+}
+
+.info-text{
+	font-weight: bold;
+	text-align: center;
+}
